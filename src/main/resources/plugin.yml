@@ -1,0 +1,29 @@
+name: AntiRelog
+version: 1.7
+main: ru.leymooo.antirelog.Antirelog
+api-version: 1.13
+author: Al3xAndLeymooo
+description: AntiRelog plugin for PVP protection
+
+commands:
+  antirelog:
+    description: Основная команда плагина
+    aliases: [ar]
+    usage: /<command> [reload|updatepvp|updatepvptimer|deletepvp|status]
+
+permissions:
+  antirelog.bypass:
+    description: Обход проверок плагина
+    default: op
+  antirelog.bypass.checks:
+    description: Обход проверок на GM/FLY
+    default: op
+  antirelog.reload:
+    description: Право на перезагрузку конфига
+    default: op
+  antirelog.admin:
+    description: Админские команды
+    default: op
+  antirelog.status:
+    description: Просмотр статуса игроков
+    default: op
