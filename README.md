@@ -10,7 +10,7 @@
 
 Соберите плагин через команду в терминале "mvn package"
 
-Готовый плагин будет лежать в папке c:/users/ваше имя/IdeaProjects/AntiPodSos/Target
+Готовый плагин будет лежать в папке c:/users/ваше имя/IdeaProjects/Antirelog/Target
 
 Плагин поддерживается на версии 1.16.5 paper minecraft (java)
 
